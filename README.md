@@ -6,7 +6,6 @@
 [Tailwind CSS](https://tailwindcss.com/)
 [Anime JS](https://animejs.com/)
 [Framer Motion](https://www.framer.com/)
-[React Vertical Timeline](https://stephane-monnot.github.io/react-vertical-timeline/#/)
 [CSS Glass](https://css.glass/)
 
 ## Font Combinations

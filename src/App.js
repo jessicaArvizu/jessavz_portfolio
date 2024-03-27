@@ -1,10 +1,11 @@
 import './App.css';
 import About from './components/About';
 import Hero from './components/Hero';
-import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Jobs from './components/Jobs';
+import Experience from './components/Experience';
+import '@fontsource-variable/open-sans';
+import '@fontsource-variable/montserrat';
 
 function App() {
   return (
@@ -12,10 +13,9 @@ function App() {
       <header className="">
         <Hero />
       </header>
-      <main className="p-20 font-semibold">
+      <main className="py-20 pr-20 font-semibold">
         <About />
-        <Jobs />
-        <Skills />
+        <Experience />
         <Projects />
         <Contact />
       </main>

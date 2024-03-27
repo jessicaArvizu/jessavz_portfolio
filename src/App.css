@@ -7,7 +7,13 @@ html {
     height: 100%;
 }
 
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat Variable', sans-serif;
+}
+
 body {
     height: 100%;
     overflow: auto;
+    font-family: 'Open Sans Variable', sans-serif;    
 }
+
