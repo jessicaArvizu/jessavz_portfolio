@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <section id="about" className="min-h-screen">
+        <section id="about">
             <div>
                 <h3 className="font-bold text-xl text-peach">Greetings! 🌟</h3>
                 <p className="my-5">
@@ -10,9 +10,9 @@ export default function About() {
                     of
                     transforming Tumblr themes using the magic of HTML and CSS. Fast forward to today, and I
                     find myself immersed in the dynamic realms of <span className="text-peach font-bold">React</span>,
-                    <span className="text-peach font-bold">JavaScript</span>,
-                    <span className="text-peach font-bold">Bootstrap</span>,
-                    and <span className="text-peach font-bold">Tailwind</span> – the
+                    <span className="text-peach font-bold"> JavaScript</span>,
+                    <span className="text-peach font-bold"> Bootstrap</span>,
+                    and <span className="text-peach font-bold"> Tailwind</span> – the
                     tools
                     that bring my digital dreams to life.
                 </p>
