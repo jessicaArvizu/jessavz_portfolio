@@ -6,7 +6,7 @@ export default function Experience() {
         <section id='experience' className='mt-24'>
             <ExperienceCard
                 url='https://www.toptal.com/'
-                date='Feb 2022 - Dec 2023'
+                date='Feb 2022 — Dec 2023'
                 title='Technical Screener | Frontend Developer'
                 subTitle='Toptal'
                 description='I conducted 400+ interviews, provided detailed feedback,
@@ -17,7 +17,7 @@ export default function Experience() {
             />
             <ExperienceCard
                 url='https://www.envato.com/'
-                date='Oct 2019 - Feb 2022'
+                date='Oct 2019 — Feb 2022'
                 title='Code Reviewer'
                 subTitle='Envato México'
                 description=' As a Code Reviewer, I ensured CodeCanyon projects met Envato&apos;s 
@@ -27,7 +27,7 @@ export default function Experience() {
             />
             <ExperienceCard
                 url='https://www.linkedin.com/company/top-marketing-strategies/'
-                date='Jun 2018 - Oct 2019'
+                date='Jun 2018 — Oct 2019'
                 title='Team Leader | Frontend Developer'
                 subTitle='Top Marketing Strategies'
                 description='As Team Leader, I managed a cross-functional team in México,
@@ -38,7 +38,7 @@ export default function Experience() {
             />
             <ExperienceCard
                 url='https://www.tesselar.mx/'
-                date='Jun 2017 - Jun 2018'
+                date='Jun 2017 — Jun 2018'
                 title='Full Stack Android Developer'
                 subTitle='Tesselar'
                 description='As a full-stack Android developer, I was responsible for designing, building,
