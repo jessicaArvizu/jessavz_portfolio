@@ -4,6 +4,13 @@ import React from "react";
 export default function Contact() {
     return (
         <section id="contact" className="">
+            <h1>Contact</h1>
+        </section>
+    );
+}
+
+/*
+
             <div className="grid grid-cols-2 gap-4">
                 <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                     <form
@@ -62,7 +69,4 @@ export default function Contact() {
                         <i class="fa-solid fa-code"></i>
                     </button>
                 </div>
-            </div>
-        </section>
-    );
-}
+            </div>*/
