@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navigation() {
     return (
-        <div className="mx-auto flex flex-wrap text-peach">
+        <div className="mx-auto flex flex-wrap">
             <nav className="flex flex-col text-base justify-start uppercase font-semibold text-xs">
                 <a href="#about" className="m-2 hover:text-coral">
                     About me

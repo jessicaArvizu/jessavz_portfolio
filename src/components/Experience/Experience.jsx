@@ -48,7 +48,7 @@ export default function Experience() {
             />
             <div className='my-4'>
                 <a href={pdf} target='__blank' rel='noopener noreferrer'
-                    className='text-sm text-peach py-1 px-6 rounded-xl backdrop-blur-sm bg-white/20'>
+                    className='text-peach py-1 px-6 rounded-xl backdrop-blur-sm bg-white/10'>
                     <i className="fa-solid fa-hand-point-right mr-3"></i> View my full resume here
                 </a>
             </div>
