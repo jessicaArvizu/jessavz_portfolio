@@ -7,10 +7,10 @@ export default function Hero() {
         <section>
             <div className='mx-auto min-w-full flex md:flex-col flex-col p-24'>
                 <div className='flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
-                    <h1 className='title-font sm:text-4xl text-3xl lg:mb-4 font-bold text-cotton'>
-                        Hi! I&apos;m Jessica
+                    <h1 className='title-font sm:text-4xl text-3xl lg:mb-4 font-bold text-coral'>
+                        Hi! I&apos;m Jessica Arvizu
                     </h1>
-                    <h2 className='sm:text-2xl text-2xl mb-4 font-bold text-coral'>
+                    <h2 className='sm:text-2xl text-2xl mb-4 font-bold text-peach'>
                         And I love to build amazing apps.
                     </h2>
                     <h3 className='mb-8 leading-relaxed text-cotton font-bold font-2xl'>

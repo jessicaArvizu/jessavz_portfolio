@@ -35,7 +35,7 @@ export default function Socials() {
                 <a className='hover:text-peach transform transition duration-300 sm:transform-none'
                     href='https://www.codecademy.com/profiles/jessArvizu' target='__blank'
                     rel='noopener noreferrer'>
-                    <i class='fa-solid fa-graduation-cap'></i>
+                    <i className='fa-solid fa-graduation-cap'></i>
                 </a>
             </div>
         </div>

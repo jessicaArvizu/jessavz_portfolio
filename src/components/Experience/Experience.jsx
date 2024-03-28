@@ -1,5 +1,6 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
+import pdf from "../utils/resume_jessica_arvizu.pdf"
 
 export default function Experience() {
     return (
@@ -45,6 +46,12 @@ export default function Experience() {
                 and maintaining Android applications, as well as their integration with Salesforce CRM.'
                 skills={['Android', 'Salesforce', 'Mockito', 'Kotlin']}
             />
-        </section>
+            <div className='my-4'>
+                <a href={pdf} target='__blank' rel='noopener noreferrer'
+                    className='text-sm text-peach py-1 px-6 rounded-xl backdrop-blur-sm bg-white/20'>
+                    <i className="fa-solid fa-hand-point-right mr-3"></i> View my full resume here
+                </a>
+            </div>
+        </section >
     );
 }

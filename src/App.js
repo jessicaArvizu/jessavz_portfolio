@@ -16,7 +16,6 @@ function App() {
       <main className="py-20 pr-20 font-semibold overflow-y-auto relative">
         <About />
         <Experience />
-        <Projects />
         <Contact />
       </main>
     </div>
