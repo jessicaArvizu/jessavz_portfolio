@@ -12,7 +12,7 @@ function App() {
       <header className="lg:overflow-hidden lg:min-h-screen lg:h-screen lg:sticky lg:top-0">
         <Hero />
       </header>
-      <main className="py-20 pr-20 font-semibold overflow-y-auto relative">
+      <main className="px-10 lg:py-20 lg:pr-20 font-semibold overflow-y-auto relative">
         <About />
         <Experience />
         <Contact />

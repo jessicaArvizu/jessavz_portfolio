@@ -5,8 +5,8 @@ import Socials from './Socials'
 export default function Hero() {
     return (
         <section>
-            <div className='mx-auto min-w-full flex md:flex-col flex-col p-24'>
-                <div className='flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
+            <div className='mx-auto min-w-full flex md:flex-col flex-col p-16 lg:p-24'>
+                <div className='flex flex-col md:items-start md:text-left md:mb-0 items-center text-center'>
                     <h1 className='title-font sm:text-4xl text-3xl lg:mb-4 font-bold text-coral'>
                         Hi! I&apos;m Jessica Arvizu
                     </h1>
