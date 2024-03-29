@@ -24,7 +24,7 @@ export default function Contact() {
     };
     
     return (
-        <section id="contact" className="my-16 mx-1">
+        <section id="contact" className="h-fit bg-orange-500">
             <form ref={form} onSubmit={sendEmail}
                 name="contact">
                 <h2 className="text-1xl mb-1 font-semibold">

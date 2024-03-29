@@ -1,21 +1,30 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import './App.css';
 import About from './components/About';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import Experience from './components/Experience/Experience';
+import Skills from './components/Skills';
+import Work from './components/Work';
+import Navigation from './components/Navigation';
+import Socials from './components/Socials';
 import '@fontsource-variable/open-sans';
 import '@fontsource-variable/montserrat';
 
 function App() {
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 bg-amethyst bg-gradient-to-r from-amethyst to-lavender text-cotton">
       <header className="lg:overflow-hidden lg:min-h-screen lg:h-screen lg:sticky lg:top-0">
         <Hero />
+        <Navigation />
+        <Socials />
       </header>
-      <main className="px-10 lg:py-20 lg:pr-20 font-semibold overflow-y-auto relative">
+      <main className="font-semibold overflow-y-auto relative bg-blue-500">
         <About />
         <Experience />
+        <Skills />
+        <Work />
         <Contact />
         <div className='text-xs'>
           This website was built with <a href='https://react.dev/' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> React </a>

@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Socials() {
     return (
-        <div className='mt-10 mx-auto min-w-full flex md:flex-row flex-ro gap-6 space-around text-4xl'>
+        <div className='min-w-full px-16 py-10 lg:px-24 flex flex-row gap-6 space-around text-4xl'>
             <div>
                 <a className='hover:text-coral transform transition duration-300 sm:transform-none'
                     href='https://github.com/jessicaArvizu' target='__blank'

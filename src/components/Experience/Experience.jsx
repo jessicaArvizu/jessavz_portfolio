@@ -4,7 +4,7 @@ import pdf from "../utils/resume_jessica_arvizu.pdf"
 
 export default function Experience() {
     return (
-        <section id='experience' className='mt-24'>
+        <section id='experience' className='h-fit bg-yellow-500'>
             <ExperienceCard
                 url='https://www.toptal.com/'
                 date='Feb 2022 — Dec 2023'
