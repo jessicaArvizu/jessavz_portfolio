@@ -3,29 +3,29 @@ import { motion } from 'framer-motion';
 
 export default function Navigation() {
     const [activeSection, setActiveSection] = useState(null);
-    const sectionRefs = useRef({});
 
     useEffect(() => {
-        const handleIntersection = (entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    setActiveSection(entry.target.id);
-                }
+        const handleScroll = () => {
+            const sectionOffsets = Array.from(document.querySelectorAll('section')).map(section => {
+                const rect = section.getBoundingClientRect();
+                return {
+                    id: section.id,
+                    top: rect.top + window.scrollY,
+                    bottom: rect.bottom + window.scrollY
+                };
             });
+
+            const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+            const currentSection = sectionOffsets.find(section => scrollPosition >= section.top && scrollPosition < section.bottom);
+            setActiveSection(currentSection ? currentSection.id : null);
         };
 
-        const observer = new IntersectionObserver(handleIntersection, {
-            root: null,
-            rootMargin: '0px',
-            threshold: 0.5,
-        });
+        handleScroll();
 
-        Object.values(sectionRefs.current).forEach(sectionRef => {
-            observer.observe(sectionRef);
-        });
-
+        window.addEventListener('scroll', handleScroll);
         return () => {
-            observer.disconnect();
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 

@@ -1,7 +1,7 @@
-export default function Work(){
-    return(
-        <section id="work" className="h-fit bg-pink-500">
-            <h1>Work Component</h1>
+export default function Work() {
+    return (
+        <section id="work" className='h-fit py-10 lg:py:20'>
+            <h1> Work section</h1>
         </section>
     )
 }

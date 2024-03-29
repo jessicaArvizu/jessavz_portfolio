@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
@@ -24,49 +24,49 @@ export default function Contact() {
     };
     
     return (
-        <section id="contact" className="h-fit bg-orange-500">
+        <section id='contact' className='h-fit py-10 lg:py:20'>
             <form ref={form} onSubmit={sendEmail}
-                name="contact">
-                <h2 className="text-1xl mb-1 font-semibold">
-                    Let's build something <span className="font-bold text-peach">great</span> together! ⭐️
+                name='contact'>
+                <h2 className='text-1xl mb-1 font-semibold'>
+                    Let's build something <span className='font-bold text-peach'>great</span> together! ⭐️
                 </h2>
                 <br />
-                <div className="relative mb-4">
+                <div className='relative mb-4'>
                     <input
-                        type="text"
-                        id="name"
-                        name="from_name"
+                        type='text'
+                        id='name'
+                        name='from_name'
                         required
-                        placeholder="Name"
-                        className="bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
+                        placeholder='Name'
+                        className='bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
                         placeholder-cotton focus:ring-peach focus:border-peach
-                        focus:outline-none focus:ring-2"                    />
+                        focus:outline-none focus:ring-2'                    />
                 </div>
-                <div className="relative mb-4">
+                <div className='relative mb-4'>
                     <input
-                        type="email"
-                        id="email"
+                        type='email'
+                        id='email'
                         required
-                        name="from_email"
-                        placeholder="Email"
-                        className="bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
+                        name='from_email'
+                        placeholder='Email'
+                        className='bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
                         placeholder-cotton focus:ring-peach focus:border-peach
-                        focus:outline-none focus:ring-2"                    />
+                        focus:outline-none focus:ring-2'                    />
                 </div>
-                <div className="relative mb-4">
+                <div className='relative mb-4'>
                     <textarea
-                        id="message"
-                        name="message"
+                        id='message'
+                        name='message'
                         required
-                        placeholder="Tell me your ideas!"
-                        className="bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
+                        placeholder='Tell me your ideas!'
+                        className='bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
                         placeholder-cotton focus:ring-peach focus:border-peach
-                        focus:outline-none focus:ring-2"                    />
+                        focus:outline-none focus:ring-2'                    />
                 </div>
-                <button type="submit"
-                    className="w-full py-2 px-2 rounded-xl my-2 text-peach bg-amethyst
+                <button type='submit'
+                    className='w-full py-2 px-2 rounded-xl my-2 text-peach bg-amethyst
                             focus:ring-peach focus:border-peach
-                            focus:outline-none focus:ring-2">
+                            focus:outline-none focus:ring-2'>
                     Submit
                 </button>
             </form>

@@ -20,7 +20,7 @@ function App() {
         <Navigation />
         <Socials />
       </header>
-      <main className="font-semibold overflow-y-auto relative bg-blue-500">
+      <main className="font-semibold overflow-y-auto relative px-10 lg:pr-20">
         <About />
         <Experience />
         <Skills />

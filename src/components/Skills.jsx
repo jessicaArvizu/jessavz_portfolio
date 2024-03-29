@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Skills() {
     return (
-        <section id='skills' className="h-fi bg-purple-500">
-            <h1>Skills component</h1>
+        <section id='skills' className='h-fit py-10 lg:py:20'>
+            <h1>Skills section</h1>
         </section >
     )
 }
