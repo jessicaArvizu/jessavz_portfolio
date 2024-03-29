@@ -1,12 +1,12 @@
 # Jessica Arvizu Portfolio
 
 ## Tools
-[React](https://es.react.dev/)
-[Font Source](https://fontsource.org/)
-[Tailwind CSS](https://tailwindcss.com/)
-[Anime JS](https://animejs.com/)
-[Framer Motion](https://www.framer.com/)
-[Formik](https://formik.org/)
+- [React](https://es.react.dev/)
+- [Font Source](https://fontsource.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Anime JS](https://animejs.com/)
+- [Framer Motion](https://www.framer.com/)
+- [EmailJS](https://www.emailjs.com/)
 
 ## Font Combinations
 - [Open Sans](https://fontsource.org/fonts/open-sans)
