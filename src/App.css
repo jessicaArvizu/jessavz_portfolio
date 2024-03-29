@@ -9,7 +9,9 @@ h1,h2,h3,h4,h5{
 body {
     height: 100%;
     overflow: auto;
-    font-family: 'Open Sans Variable', sans-serif;    
+    font-family: 'Open Sans Variable', sans-serif; 
+    background: #5f689f;
+    background: linear-gradient(90deg, #5f689f 0%, #b5b7d3 100%);   
 }
 
 ::-moz-selection {
