@@ -5,6 +5,7 @@
 - [Font Source](https://fontsource.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Anime JS](https://animejs.com/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [EmailJS](https://www.emailjs.com/)
 
 ## Font Combinations

@@ -17,3 +17,12 @@ body {
     font-family: 'Open Sans Variable', sans-serif;    
 }
 
+::-moz-selection {
+    background: rgba(255,217,215, 0.3);
+  }
+  ::-webkit-selection {
+    background: rgba(255,217,215, 0.3);
+  }
+  ::selection {
+    background: rgba(255,217,215, 0.3);
+  }

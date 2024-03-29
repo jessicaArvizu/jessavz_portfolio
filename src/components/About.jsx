@@ -36,7 +36,7 @@ export default function About() {
                         <span className='text-orange-200'>o</span>
                         <span className='text-yellow-200'>l</span>
                         <span className='text-green-200'>o</span>
-                        <span className='text-blue-200'>r</span>
+                        <span className='text-blue-00'>r</span>
                     </span>! 🌈✨
                 </p>
             </div>
