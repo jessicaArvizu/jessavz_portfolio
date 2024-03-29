@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './App.css';
 import About from './components/About';
 import Hero from './components/Hero';
@@ -6,10 +6,6 @@ import Contact from './components/Contact';
 import Experience from './components/Experience/Experience';
 import '@fontsource-variable/open-sans';
 import '@fontsource-variable/montserrat';
-import { motion } from "framer-motion"
-import { useScroll } from "framer-motion"
-
-
 
 function App() {
   return (
