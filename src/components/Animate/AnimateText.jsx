@@ -13,7 +13,7 @@ export default function AnimateText({ children }) {
           key={index}
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: index * 0.6 }} // Delay each child by 0.2s
+          transition={{ duration: 1, delay: index * 0.6 }}
         >
           {child}
         </motion.div>

@@ -15,17 +15,17 @@ export default function Navigation() {
                 <motion.a
                     whileHover={{ translateX: 15 }}
                     href="#experience" className="m-2 hover:text-coral">
-                    <i class="fa-solid fa-chevron-right"></i> Experience
+                    <i className="fa-solid fa-chevron-right"></i> Experience
                 </motion.a>
                 <motion.a
                     whileHover={{ translateX: 15 }}
                     href="#my-work" className="m-2 hover:text-coral">
-                    <i class="fa-solid fa-chevron-right"></i> My work
+                    <i className="fa-solid fa-chevron-right"></i> My work
                 </motion.a>
                 <motion.a
                     whileHover={{ translateX: 15 }}
                     href="#contact" className="m-2 hover:text-coral">
-                    <i class="fa-solid fa-chevron-right"></i> Let's work together! ✨
+                    <i className="fa-solid fa-chevron-right"></i> Let's work together! ✨
                 </motion.a>
             </nav>
         </div>

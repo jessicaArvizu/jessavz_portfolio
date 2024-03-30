@@ -4,8 +4,7 @@ import About from './components/About';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import Experience from './components/Experience/Experience';
-import '@fontsource-variable/open-sans';
-import '@fontsource-variable/montserrat';
+import AnimateSection from './components/Animate/AnimateSection';
 
 function App() {
   return (

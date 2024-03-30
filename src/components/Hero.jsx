@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Navigation from './Navigation';
 import Socials from './Socials'
-import AnimateText from './AnimateText/AnimateText';
+import AnimateText from './Animate/AnimateText';
 
 export default function Hero() {
     return (
@@ -27,7 +27,6 @@ export default function Hero() {
                         </div>
                     </AnimateText>
                 </div>
-
             </div>
         </section>
     )
