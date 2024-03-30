@@ -1,10 +1,11 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import pdf from "../utils/resume_jessica_arvizu.pdf"
+import { sectionsEnums } from '../_enums/sectionsEnums';
 
 export default function Experience() {
     return (
-        <section id='experience' className='h-fit py-10 lg:py:20'>
+        <section id={sectionsEnums.experience} className='h-fit py-10 lg:py:20'>
             <ExperienceCard
                 url='https://www.toptal.com/'
                 date='Feb 2022 — Dec 2023'

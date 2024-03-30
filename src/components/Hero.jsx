@@ -6,7 +6,7 @@ import AnimateText from './Animate/AnimateText';
 export default function Hero() {
     return (
         <div className='mx-auto min-w-full flex md:flex-col flex-col p-16 lg:p-24'>
-            <div className='flex flex-col md:items-start md:text-left md:mb-0 items-center text-center'>
+            <div className='flex flex-col'>
                 <AnimateText>
                     <h1 className='title-font sm:text-4xl text-3xl lg:mb-4 font-bold text-cotton'>
                         Hi! I&apos;m Jessica Arvizu

@@ -6,10 +6,9 @@ import Contact from './components/Contact';
 import Experience from './components/Experience/Experience';
 import Skills from './components/Skills';
 import Work from './components/Work';
-import Navigation from './components/Navigation';
-import Socials from './components/Socials';
 import '@fontsource-variable/open-sans';
 import '@fontsource-variable/montserrat';
+import AnimateSection from './components/Animate/AnimateSection';
 
 function App() {
 
@@ -19,11 +18,21 @@ function App() {
         <Hero />
       </header>
       <main className="font-semibold overflow-y-auto relative px-10 lg:pr-20">
-        <About />
-        <Experience />
-        <Skills />
-        <Work />
-        <Contact />
+        <AnimateSection>
+          <About />
+        </AnimateSection>
+        <AnimateSection>
+          <Experience />
+        </AnimateSection>
+        <AnimateSection>
+          <Skills />
+        </AnimateSection>
+        <AnimateSection>
+          <Work />
+        </AnimateSection>
+        <AnimateSection>
+          <Contact />
+        </AnimateSection>
         <div className='text-xs p-10'>
           This website was built with <a href='https://react.dev/' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> React </a>
           & <a href='https://tailwindcss.com/' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> Tailwind CSS</a>,

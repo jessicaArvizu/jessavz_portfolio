@@ -1,8 +1,9 @@
 import React from 'react'
+import {sectionsEnums} from './_enums/sectionsEnums'
 
 export default function About() {
     return (
-        <section id="about" className='h-fit py-16 lg:py:20'>
+        <section id={sectionsEnums.about} className='h-fit py-16 lg:py:20'>
             <h3 className="font-bold text-xl text-peach">Greetings! 🌟</h3>
             <p className="my-5">
                 A decade ago, my journey into the enchanting world of frontend development began with the humble act

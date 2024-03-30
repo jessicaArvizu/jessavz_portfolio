@@ -35,7 +35,7 @@ export default function Navigation() {
     };
 
     return (
-        <div className="min-w-full px-16 py-0 lg:px-24">
+        <div className="min-w-full py-0">
             <nav className="flex flex-col text-base justify-start uppercase font-semibold text-xs">
                 <motion.a
                     whileHover={{ translateX: 15 }}

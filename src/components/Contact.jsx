@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { motion } from "framer-motion"
+import { sectionsEnums } from './_enums/sectionsEnums';
 
 export default function Contact() {
     const form = useRef();
@@ -25,9 +25,9 @@ export default function Contact() {
     };
     
     return (
-        <section id='contact' className='h-fit py-10 lg:py:20'>
+        <section id={sectionsEnums.contact} className='h-fit py-10 lg:py:20'>
             <form ref={form} onSubmit={sendEmail}
-                name='contact'>
+                name={sectionsEnums.contact}>
                 <h2 className='text-1xl mb-1 font-semibold'>
                     Let's build something <span className='font-bold text-peach'>great</span> together! ⭐️
                 </h2>
