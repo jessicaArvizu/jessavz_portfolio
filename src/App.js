@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React from 'react';
 import './App.css';
 import About from './components/About';
 import Hero from './components/Hero';
@@ -17,8 +17,6 @@ function App() {
     <div className="grid grid-cols-1 lg:grid-cols-2 bg-amethyst bg-gradient-to-r from-amethyst to-lavender text-cotton">
       <header className="lg:overflow-hidden lg:min-h-screen lg:h-screen lg:sticky lg:top-0">
         <Hero />
-        <Navigation />
-        <Socials />
       </header>
       <main className="font-semibold overflow-y-auto relative px-10 lg:pr-20">
         <About />
