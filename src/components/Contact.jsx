@@ -1,9 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { sectionsEnums } from './_enums/sectionsEnums';
 import { motion } from 'framer-motion';
 
 export default function Contact() {
+    const [formValues, setFormValues] = useState({ name: '', email: '', message: '' });
+    const [messageSent, setMessageSent] = useState(false);
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -16,6 +18,8 @@ export default function Contact() {
             .then(
                 () => {
                     console.log('Email sent!');
+                    setMessageSent(true);
+                    setFormValues({ name: '', email: '', message: '' });
                 }
             )
             .catch(
@@ -27,6 +31,7 @@ export default function Contact() {
 
     return (
         <section id={sectionsEnums.contact} className='h-fit py-10 lg:py:20'>
+            {messageSent && <p className="text-green-500">Message sent!</p>}
             <form ref={form} onSubmit={sendEmail}
                 name={sectionsEnums.contact}>
                 <h3 className='text-1xl mb-1 font-bold'>
@@ -39,6 +44,8 @@ export default function Contact() {
                         id='name'
                         name='from_name'
                         required
+                        value={formValues.name}
+                        onChange={(e) => setFormValues({ ...formValues, name: e.target.value })}
                         placeholder='Name'
                         className='bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
                         placeholder-cotton focus:ring-peach focus:border-peach
@@ -49,6 +56,8 @@ export default function Contact() {
                         type='email'
                         id='email'
                         required
+                        value={formValues.email}
+                        onChange={(e) => setFormValues({ ...formValues, email: e.target.value })}
                         name='from_email'
                         placeholder='Email'
                         className='bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
@@ -60,6 +69,8 @@ export default function Contact() {
                         id='message'
                         name='message'
                         required
+                        value={formValues.message}
+                        onChange={(e) => setFormValues({ ...formValues, message: e.target.value })}
                         placeholder='Tell me your ideas!'
                         className='bg-white/30 w-full py-2 px-2 rounded-xl my-2 text-peach
                         placeholder-cotton focus:ring-peach focus:border-peach
@@ -79,5 +90,3 @@ export default function Contact() {
         </section>
     );
 }
-
-
