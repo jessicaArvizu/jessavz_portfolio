@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Navigation from './Navigation';
-import Socials from './Socials'
+import Socials from './Socials/Socials'
 import AnimateText from './Animate/AnimateText';
 
 export default function Hero() {

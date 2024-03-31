@@ -1,11 +1,13 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
-import pdf from "../utils/resume_jessica_arvizu.pdf"
+import pdf from "../_utils/resume_jessica_arvizu.pdf"
 import { sectionsEnums } from '../_enums/sectionsEnums';
+import { motion } from "framer-motion";
 
 export default function Experience() {
     return (
         <section id={sectionsEnums.experience} className='h-fit py-10 lg:py:20'>
+            <h3 className="font-bold text-xl mb-10 text-peach">My experience</h3>
             <ExperienceCard
                 url='https://www.toptal.com/'
                 date='Feb 2022 — Dec 2023'
@@ -47,12 +49,16 @@ export default function Experience() {
                 and maintaining Android applications, as well as their integration with Salesforce CRM.'
                 skills={['Android', 'Salesforce', 'Mockito', 'Kotlin']}
             />
-            <div className='my-4'>
+            <motion.div
+            className='w-100% mt-10 mb-10 text-center'
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.90 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}>
                 <a href={pdf} target='__blank' rel='noopener noreferrer'
-                    className='text-peach py-1 px-6 rounded-xl backdrop-blur-sm bg-white/10'>
+                    className='text-peach py-2 px-6 rounded-xl bg-amethyst'>
                     <i className="fa-solid fa-hand-point-right mr-3"></i> View my full resume here
                 </a>
-            </div>
+            </motion.div>
         </section >
     );
 }

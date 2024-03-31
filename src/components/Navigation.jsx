@@ -58,13 +58,13 @@ export default function Navigation() {
                 >
                     <i className="fa-solid fa-chevron-right"></i> My Skills
                 </motion.a>
-                <motion.a
+                {/*<motion.a
                     whileHover={{ translateX: 15 }}
                     onClick={() => handleNavLinkClick('work')}
                     className={`m-2 ${activeSection === 'work' ? 'text-coral' : ''}`}
                 >
                     <i className="fa-solid fa-chevron-right"></i> My work
-                </motion.a>
+    </motion.a>*/}
                 <motion.a
                     whileHover={{ translateX: 15 }}
                     onClick={() => handleNavLinkClick('contact')}
