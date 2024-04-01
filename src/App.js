@@ -31,7 +31,7 @@ function App() {
   </AnimateSection>*/}
         <AnimateSection>
           <Contact />
-        </AnimateSection>
+</AnimateSection>
         <div className='text-xs p-10'>
           This website was built with <a href='https://react.dev/' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> React </a>
           & <a href='https://tailwindcss.com/' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> Tailwind CSS</a>,
