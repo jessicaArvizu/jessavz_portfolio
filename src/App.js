@@ -38,6 +38,8 @@ function App() {
           & <a href='https://tailwindcss.com/' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> Tailwind CSS</a>,
           and it's open sourced on
           <a href='https://github.com/jessicaArvizu/jessavz_portfolio' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> GitHub</a>.
+          <br/>
+          <i class="fa-regular fa-copyright"></i> 2024, Jessica Arvizu
         </div>
       </main>
     </div>
