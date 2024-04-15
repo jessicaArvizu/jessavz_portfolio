@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import '@fontsource-variable/open-sans';
 import '@fontsource-variable/montserrat';
 import AnimateSection from './components/Animate/AnimateSection';
+import Work from './components/Work/Work';
 
 function App() {
 
@@ -26,12 +27,12 @@ function App() {
         <AnimateSection>
           <Skills />
         </AnimateSection>
-        {/*<AnimateSection>
+        <AnimateSection>
           <Work />
-  </AnimateSection>*/}
+        </AnimateSection>
         <AnimateSection>
           <Contact />
-</AnimateSection>
+        </AnimateSection>
         <div className='text-xs p-10'>
           This website was built with <a href='https://react.dev/' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> React </a>
           & <a href='https://tailwindcss.com/' target='__blank' rel='noopener noreferrer' className='font-bold text-amethyst hover:text-peach'> Tailwind CSS</a>,
