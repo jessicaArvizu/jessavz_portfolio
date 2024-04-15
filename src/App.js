@@ -4,7 +4,7 @@ import About from './components/About';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import Experience from './components/Experience/Experience';
-import Skills from './components/Skills';
+import Skills from './components/Skills/Skills';
 import '@fontsource-variable/open-sans';
 import '@fontsource-variable/montserrat';
 import AnimateSection from './components/Animate/AnimateSection';
