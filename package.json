@@ -6,6 +6,7 @@
     "@emailjs/browser": "^4.3.3",
     "@fontsource-variable/montserrat": "^5.0.18",
     "@fontsource-variable/open-sans": "^5.0.28",
+    "@fontsource/inclusive-sans": "^5.0.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

@@ -9,7 +9,7 @@
 - [React Skillbars](https://github.com/crisboarna/react-skillbars)
 
 ## Font Combinations
-- [Open Sans](https://fontsource.org/fonts/open-sans)
+- [Inclusive Sans](https://fontsource.org/fonts/inclusive-sans/)
 - [Montserrat](https://fontsource.org/fonts/montserrat)
 
 ## Color Reference
