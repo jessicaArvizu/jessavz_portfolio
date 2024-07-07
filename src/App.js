@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import About from './components/About';
 import Hero from './components/Hero';
-import Contact from './components/Contact';
 import Experience from './components/Experience/Experience';
 import Skills from './components/Skills/Skills';
 import '@fontsource-variable/montserrat';
